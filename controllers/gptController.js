@@ -195,7 +195,7 @@ export const sendEmails = async (req, res) => {
               <p>Dear ${candidate.name},</p>
               <p>We would like to invite you to take a test for the position of ${candidate.role} at ${company.username}.</p>
               <p>Please click the button below to access the test.</p>
-              <a href="https://ez-interview-frontend.vercel.app/candidates/${candidateId}/test/${testId}" class="button">Take Test</a>
+              <a href="https://ezinterview.vercel.app/candidates/${candidateId}/test/${testId}" class="button">Take Test</a>
               <p>Best regards,<br>${company.username}</p>
             </div>
           </div>

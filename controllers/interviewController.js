@@ -147,7 +147,7 @@ export const createInterview = async (req, res, next) => {
             <p>We are pleased to invite you to an interview for the position of ${candidate.role} at ${company.username}.</p>
             <p>The interview will be held on ${formattedTime}.</p>
             <p>Please join the meet on time.</p>
-            <a href="https://ez-interview-frontend.vercel.app/meet/${newInterview._id}" class="button">Join Interview</a>
+            <a href="https://ezinterview.vercel.app/meet/${newInterview._id}" class="button">Join Interview</a>
             <p>Best regards,<br>${company.username}</p>
           </div>
         </div>
